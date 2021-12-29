@@ -1,5 +1,7 @@
 #include "qt_studywindow.h"
 #include "ui_qt_studywindow.h"
+#include <iostream>
+using namespace std;
 
 QT_StudyWindow::QT_StudyWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -13,3 +15,8 @@ QT_StudyWindow::~QT_StudyWindow()
     delete ui;
 }
 
+
+void QT_StudyWindow::on_pushButton_clicked()
+{
+    cout<<"123"<<endl;
+}

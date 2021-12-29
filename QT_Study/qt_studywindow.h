@@ -15,6 +15,9 @@ public:
     QT_StudyWindow(QWidget *parent = nullptr);
     ~QT_StudyWindow();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::QT_StudyWindow *ui;
 };
